@@ -1,6 +1,6 @@
 #!bin/bash
 
-mkdir /home/$USER/bin %% mkdir /home/$USER/Repos
+mkdir /home/$USER/bin && mkdir /home/$USER/Repos
 
 # update and upgrade
 sudo apt update && sudo apt upgrade -y; 
