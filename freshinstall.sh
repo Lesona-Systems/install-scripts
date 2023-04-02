@@ -8,8 +8,8 @@ sudo apt update && sudo apt upgrade -y;
 # Git, initial setup
 sudo apt install git -y; git config --global user.name "Nicholas Johnson" && git config --global user.email "59103181+Lesona-Systems@users.noreply.github.com" && git config --global init.defaultBranch main
 
-# GParted & Steam
-sudo apt install gparted steam -y 
+# GParted & Steam & Neofetch
+sudo apt install gparted steam neofetch -y 
 
 # Spotify
 curl -sS https://download.spotify.com/debian/pubkey_7A3A762FAFD4A51F.gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg;
